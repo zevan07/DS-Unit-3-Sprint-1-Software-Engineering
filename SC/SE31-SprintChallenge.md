@@ -264,9 +264,14 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+  
+Some of the most important things one can do for readability are to ensure that things are spaced out (ie. PEP8's guideline to stay below 80 characters across) and to code as efficiently as possible. One of the best things someone can contribute to someone else's code is finding a way to turn multiple lines of code into one or a couple. However, this won't always make things more readable, as spreading things out can sometimes "spell things out" for the reader, so one needs to make a judgment call in specific cases. The important thing is that things are laid out in a logical order that is as easy to follow as possible. 
+  
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+  
+Containers are helpful when it comes to sharing applications because they share the operating system required for whatever application is shared. Without using a container or a virtual machine, you are required to ensure that all dependencies are made available for each instantiation of the app and you're also required to ensure that they are the right version that ran with the original code. As most code has a number of dependencies, keeping track of all of this can be quite a handful. On the other extreme, it is possible to share a virtual machine that will ensure that the dependencies are available and the correct version, but this makes things much more bulky than they need to be. A container is the best middle-ground solution for most problems. 
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
