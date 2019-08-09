@@ -265,11 +265,22 @@ career here, you'll have to answer the following:
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
   ```
-  test
+  1. Readability: Code formatting consistent with tab/spaces, line breaks, naming variables/class not too short or long
+  2. Style: Are the variables/parameters declared as final? Are method variables defined close to the code where they’re used or at the start of the method?
+  3. Reusability: No duplicate codes
+  4. Functionality: Function, and class not too big that it has too many responsibilities
+  5. Test/Debug: Test section for code to make sure there are no obvious errors that will stop this when working in production
   ```
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+  ```
+  1. Platform independence: Effective isolation and resource sharing
+  2. Resource efficiency and density: Immense and smooth scaling
+  3. Speed: Start, create, replicate or destroy containers in seconds
+  4. Operational simplicity
+  5. Improved developer productivity and development pipeline
+  ```
 ​
 Answer both of these questions (baseline ~5 sentences) here in text.
 ​
